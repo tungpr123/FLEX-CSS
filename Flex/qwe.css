@@ -1,0 +1,111 @@
+
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	color: #077785;
+	background-color: #669EF3;
+}
+
+h1, h3, .brand {
+	font-family: 'Knewave', cursive;
+	color: #F3F4EC;
+	text-shadow: 2px 2px 5px rgba(150, 150, 150, 1);
+}
+
+.hero h1 {
+	font-size: 3rem;
+	color: #F3F4EC;
+	max-width: 440px;
+}
+
+.container {
+	display:	flex;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height:	100vh;
+}
+
+.section {
+	display: flex;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 30px;
+}
+
+.navq {
+	text-decoration: none;
+	color: #FFFFFF;
+	transition: color 0.5s ease;
+}
+
+.navq:hover {
+	color: #077785;
+}
+
+.nav-links > a {
+	padding-right: 30px;
+}
+
+.brand {
+	font-size: 2rem;
+}
+
+.hero {
+	flex: 1;
+	display: flex;
+}
+
+.hero-content {
+	background-image: url('/img/waves.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	flex: 1;
+	display: flex;
+}
+
+.full-section {
+	width: 100%;
+}
+
+.section-1 {
+	width: 50%;
+}
+
+.section-2 {
+	width: 25%;
+}
+
+.section-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row-1 {
+ flex-direction: row;
+}
+
+.row-2 {
+	flex-direction: row-reverse;
+}
+
+.section-content {
+	padding: 5% 8% 12% 8%;
+	margin: 10px;
+	border: 8px solid #077785;
+	border-radius: 49px;
+}
+
+.section-content {
+	background-color: #B0CDDB;
+	flex: 1;
+}
+
+.green-text {
+	color: #0fbcda;
+}
